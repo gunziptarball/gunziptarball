@@ -11,6 +11,7 @@ RUN apt-get update && \
     build-essential \
     wget \
     context \
+    gettext-base \
     && rm -rf /var/lib/apt/lists/*
 RUN wget https://github.com/jgm/pandoc/releases/download/2.2.1/pandoc-2.2.1-1-amd64.deb
 RUN dpkg -i pandoc-2.2.1-1-amd64.deb  && rm pandoc-*.deb

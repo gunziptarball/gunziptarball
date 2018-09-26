@@ -9,5 +9,7 @@ services:
     command: make
     container_name: resume-make
     image: resume-make
+    env_file:
+      - .env
     volumes:
       - .:/home/app/resume
