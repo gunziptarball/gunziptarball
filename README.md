@@ -1,1 +1,1 @@
-markdown/resume.md
+markdown/index.md
