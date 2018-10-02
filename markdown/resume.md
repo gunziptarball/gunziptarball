@@ -3,18 +3,26 @@ Jackson J. Gilman
 
 > Input &bull; Ideation &bull; Analytical &bull; Intellection &bull; Achiever
 
-Software/Data Engineer with a passion for test automation, DevOps and GIS. 
+I am a software and data engineer with a passion for test automation, DevOps and GIS. 
 
 Technical Skills
 ----------------
-* Highly experienced in **Python** and **JavaScript**.  Experience in **Java**.  Familiarity with **Golang** and **Ruby**.
-* Very knowledgable using **PostgreSQL** and **MemSQL** with experience in **MySQL**, **Redshift** and **SQLite**.
-* Hands-on experience designing/supporting architectures using **Kafka**, **Elasticsearch**, **Neo4J**, **Logstash**. 
-  Working experience with **Redis** and **RabbitMQ**.
-* Regularly use popular DevOps tools such as **Docker**, **Vagrant**, **Chef**, **Ansible**, **Terraform**, **Packer**, **Vault**, **Concourse**, **Jenkins**
+* Highly experienced in **Python** and **JavaScript**.  Experience in **Java**.  
+  Familiarity with **Golang** and **Ruby**.
+* Very knowledgable using **PostgreSQL** and **MemSQL** with experience in 
+  **MySQL**, **Redshift** and **SQLite**.
+* Hands-on experience designing/supporting architectures using **Kafka**, 
+  **Elasticsearch**, **Neo4J**, **Logstash**.  Working experience with **Redis** 
+  and **RabbitMQ**.
+* Regularly use popular DevOps tools such as **Docker**, **Vagrant**, **Chef**, 
+  **Ansible**, **Terraform**, **Packer**, **Vault**, **Concourse**, **Jenkins**
 * Have built systems using **Airflow**, **Celery** and **Scrapy**.
-* Versed in TDD/BDD practices.  Frameworks / tools of choice are **py.test**, **Behave**, **Cucumber**, **Jasmine**, **Mocha**.
-* Author/maintainer of **[`typycal`](https://github.com/cardinal-health/typycal)** open-source project &mdash; Library offering additional features on top Python 3.x type annotation support.
+* Versed in TDD/BDD practices.  Frameworks / tools of choice are **py.test**, 
+  **Behave**, **Cucumber**, **Jasmine**, **Mocha**.
+* Author/maintainer of 
+  **[`typycal`](https://github.com/cardinal-health/typycal)** open-source 
+  project &mdash; Library offering additional features on top Python 3.x type 
+  annotation support.
 
 Professional Experience
 -----------------------
@@ -49,6 +57,10 @@ and MemSQL.  Developed additional apps with Kafka Streams, deployed to PCF.
 MemSQL clusters.  Authored an internal Chef cookbook to provision MemSQL 
 installation. 
 
+<!-- empty header here to force a page break for pdf output -->
+
+#### 
+
 **Sr. GIS Developer @ City of Memphis (contractor):**  Aug, 2013 &mdash; Jan, 2014
 
 * Embedded ArcGIS JavaScript API in Ember.js application.
@@ -64,9 +76,8 @@ installation.
   developers to build the application without the requirement of running local 
   JEE web server, drastically improving efficiency by reducing test feedback 
   cycle time.
-<!-- tex:
- \pagebreak
--->
+  
+
 **Sr. GIS Developer @ BNSF Railway (contractor)**  May, 2011 &mdash; Nov, 2012
 
 * Built ETL / Geoprocessing workflows (Python) to prepare mapping data for use 
@@ -89,5 +100,7 @@ activity during the 2008 housing crisis.
   output.
 
 ----
+
+<!-- environment variable substitution here to protect my personal info -->
 
 ${EMAIL_ADDRESS} &bull; ${PHONE_NUMBER} &bull; ${MAIL_ADDRESS}
