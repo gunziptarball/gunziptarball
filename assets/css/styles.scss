@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// dirty hack to hide the environment substitution from html output.
+#main_content > hr + p {
+  display: none;
+}

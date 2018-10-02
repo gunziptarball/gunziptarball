@@ -59,7 +59,7 @@ installation.
 
 <!-- empty header here to force a page break for pdf output -->
 
-#### 
+#### ...
 
 **Sr. GIS Developer @ City of Memphis (contractor):**  Aug, 2013 &mdash; Jan, 2014
 
@@ -103,4 +103,4 @@ activity during the 2008 housing crisis.
 
 <!-- environment variable substitution here to protect my personal info -->
 
-${EMAIL_ADDRESS} &bull; ${PHONE_NUMBER} &bull; ${MAIL_ADDRESS}
+> **${EMAIL_ADDRESS} &bull; ${PHONE_NUMBER} &bull; ${MAIL_ADDRESS}**

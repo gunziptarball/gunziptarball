@@ -1,5 +1,4 @@
 OUT_DIR=output
-PUBLIC_OUT_DIR=docs
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=gunziptarball
@@ -32,20 +31,7 @@ html: init
 			--output $(OUT_DIR)/$$FILE_NAME.html $$SUBST_FILE; \
 		rm $$SUBST_FILE; \
 	done
-
-public-html: init
-	for f in $(IN_DIR)/*.md; do \
-		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		SUBST_FILE=$(IN_DIR)/subst.$$FILE_NAME; \
-		echo $$FILE_NAME.html; \
-		head -n -5 $$f | envsubst > $$SUBST_FILE; \
-		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).html \
-			--lua-filter=pdc-links-target-blank.lua \
-			--from markdown --to html \
-			--output $(PUBLIC_OUT_DIR)/$$FILE_NAME.html $$SUBST_FILE; \
-		rm $$SUBST_FILE; \
-	done
-
+#main_content > p:nth-child(20)
 docx: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
