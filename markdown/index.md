@@ -103,4 +103,4 @@ activity during the 2008 housing crisis.
 
 <!-- environment variable substitution here to protect my personal info -->
 
-> **${EMAIL_ADDRESS} &bull; ${PHONE_NUMBER} &bull; ${MAIL_ADDRESS}**
+${EMAIL_ADDRESS} &bull; ${PHONE_NUMBER} &bull; ${MAIL_ADDRESS}
